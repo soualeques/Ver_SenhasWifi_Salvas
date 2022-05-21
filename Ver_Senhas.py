@@ -20,7 +20,7 @@ def selecionar():
 # Cria a janela da interface
 janela = Tk()
 janela.title('<< SENHAS SALVAS >>')
-janela['bg'] = 'purple'
+janela['bg'] = 'blue'
 
 #----------------WIDGETS------------------#
 #frame_cima = Frame(janela)
@@ -55,7 +55,7 @@ for linha in data.split('\n'):
 lb1 = Label(janela,
             text='senha: ',
             font='Arial 12 bold',
-            bg='purple')
+            bg='blue')
 
 botao = Button(janela,
                text='VER SENHA',
